@@ -1,13 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@font-face {
+    font-family: Gilroy;
+    src: url('./fonts/Gilroy-Light.otf');
+}
 *{
     text-decoration: none;
     margin: 0px;
+    font-family: 'Lato',sans-serif;
 }
 .header{
     background: linear-gradient(180deg,#e53755 19.88%,#f0e65c 189.63%);
-    font-family: 'Lato', sans-serif;
-    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.header-text{
 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 59px;
+    left: 0px;
+    top: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+}
+.navbar-ops{
+    margin: 0;
+}
+.log-in-button{
+    /* position: absolute; */
+    width: 129px;
+    height: 40px;
+    background: none;
+    border: 0px;
+    font-family: 'Poppins';
+    font-size: larger;
+    color: linear-gradient(91.41deg, #444BAB 0%, #3AA2C1 99.71%);;
+}
+.sign-up-button{
+    /* position: absolute; */
+    width: 129px;
+    height: 40px;
+    background: linear-gradient(91.41deg, #444BAB 0%, #3AA2C1 99.71%);
+    border-radius: 6px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: large;
+    border: none; 
+}
+.navbar-logo{
+    width: 262px;
+    height: 43px;
+
+}
+.nav1,.nav2,.nav3,.nav4,.nav5{
+    background: none;
+    border: 0px;
+    font-family: 'Gilroy';
+    font-size: larger;
+}
+.mainbody{
+    display: flex;
+    justify-content: space-between;
+}
+.heading1,.heading2{
+    font-family: 'Poppins';
+}
+.heading1{
+    color: #4f516b;
+
+}
+.heading2{
+    background: linear-gradient(91.41deg, #444BAB 0%, #3AA2C1 99.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.learnbutton{
+    color: #fff;
+    background: linear-gradient(93.53deg,#444bab,#416bb3 62.5%,#3ca5c2);
+    font-family: 'Poppins';
+    text-transform: "capitalize";
+    font-size: 1.3vw;
+    white-space: nowrap;
+    border: none;
+    padding: 0.8vw 25px;
+    border-radius: 5px;
 }
