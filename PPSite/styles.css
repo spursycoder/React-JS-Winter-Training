@@ -69,10 +69,11 @@
 }
 .mainbody{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .heading1,.heading2{
     font-family: 'Poppins';
+    font-size: 3vw;
 }
 .heading1{
     color: #4f516b;
@@ -82,6 +83,47 @@
     background: linear-gradient(91.41deg, #444BAB 0%, #3AA2C1 99.71%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.learnbutton,.callbutton{
+    color: #fff;
+    background: linear-gradient(93.53deg,#444bab,#416bb3 62.5%,#3ca5c2);
+    font-family: 'Poppins';
+    text-transform: "capitalize";
+    font-size: 1.3vw;
+    white-space: nowrap;
+    border: none;
+    padding: 0.8vw 25px;
+    border-radius: 5px;
+}
+.bodyleft{
+    display: flex;
+    flex-direction: column;
+    margin: 5vw 2.5vw 2.5vw;
+}
+.bodyright{
+    padding: 2vw;
+    background: #fff;
+    border: 1px solid rgba(68,71,88,.22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    font-family: Poppins!important;
+    z-index: 2;
+    position: relative;
+    right: 15%;
+    top: 13%;
+}
+.banner{
+    margin-bottom: 1.5vw;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: Poppins-SemiBold;
+    width: 70%;
+    font-size: 1vw;
 }
 .learnbutton{
     color: #fff;
@@ -93,4 +135,8 @@
     border: none;
     padding: 0.8vw 25px;
     border-radius: 5px;
+    align-self: flex-start;
+}
+.inputs{
+    
 }
